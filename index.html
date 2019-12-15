@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" > 
+    <title>Tamagochi game</title>
+</head>
+<body>
+  <div class="background">
+    <div class="screen">
+    <div class="room"><div class="pet-normal" id ="pet"></div></div>
+    </div>
+    <div class="panel">
+        <span class="title">Diary</span>
+        <span class="info" id="name"></span>
+        <span class="info" id="difficulty"></span>
+        <span class="info" id="lifetime"></span>
+        <div class="live-lvl"><button class="action-btn" id="food-btn" type="button"><img src="images/icons/food.png" alt="food-level"></button><span id="food"></span></div>
+        <div class="live-lvl"><button class="action-btn" id="clean-btn" type="button"><img src="images/icons/clean.png" alt="clean-level"></button><span id="clean"></span></div>
+        <div class="live-lvl"><button class="action-btn" id ="happy-btn" type="button"><img src="images/icons/happines.png" alt="happy-level"></button><span id="happy"></span></div>
+    </div>
+    <div class="menu" id="menu">
+        <span class="menu-title" id="menu-title"></span>
+        <ul class="menu-panel">
+          <li><button class="btn" id="greeting-btn" type="button">Name</button></li>
+          <li><button class="btn" id="restart-btn" type="button">Restart</button></li>
+          <li><button class="btn" id="rules-btn" type="button">Rules</button></li>
+          <li><button class="btn" id="about-btn" type="button">About</button></li>
+        </ul>
+    </div>
+  </div>
+   <script src="JS/script.js"></script> 
+   <script src="JS/pet.js"></script>
+</body>
+</html>
